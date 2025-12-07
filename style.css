@@ -81,7 +81,7 @@ a.button3 {
 .photo {
   width: 100%; 
   height: 400px; 
-  max-height: 300px; 
+  
   margin-top:30px;
 }
 
@@ -91,3 +91,4 @@ a.button3 {
     grid-template-columns: 200px 1fr 1fr 50%;
     margin-top:70px;
 }
+
