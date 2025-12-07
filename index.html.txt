@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+ <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="back">
+    <header class="back">
+      <div class="navigation">
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/128/139/139706.png">
+         <a class="button" href="">Перейти на сайт</a>
+        <a class="button2" href="">Перейти на сайт</a>
+        <a class="button3" href="">Перейти на сайт</a>
+      </div>
+      <img class="background" src="https://cdn.culture.ru/images/11998e02-5675-5137-93df-91f71d3908b5">
+    </header>
+    <main class="back">
+        <a class="center-both">Последние новости</a>
+        <div class="container">
+            <img class = "photo" src = "https://www.m24.ru/b/d/nBkSUhL2hlEkkM-wPqzZvc62gYT28pj21CLFh_fH_nKUPXuaDyXTjHou4MVO6BCVoZKf9GqVe5Q_CPawk214LyWK9G1N5ho=rPPaB7Vga_m0bCYDt7Knbg.jpg">
+            
+            <img class = "photo"  src ="https://cdn.culture.ru/images/7ca860c4-6e5e-5461-aabc-a11b30c5f8c0">
+            <a>"Урок, который меняет мир: 7В осваивает сортировку"</a>
+        </div>
+        <div class="container">
+            
+            <img class = "photo" src ="https://sova-news.com/uploads/posts/2023-07/1689870259_blobid0.jpg">
+            <img class = "photo" src ="https://www.cheltv.ru/wp-content/uploads/2023/04/makulat.jpg" >
+        
+        </div>
+    </main>
+    <footer>
+        
+        <div class="foot">
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/128/139/139706.png">
+            <a>7 000 000 00 00</a>
+            <a>aaa@mail.ru</a>
+        </div>
+      
+    </footer>
+   
+  </body>
+</html>
