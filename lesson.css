@@ -14,9 +14,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: #b5c99a;
   color: #b5c99a;
   width: 100%;
   padding: 20px;
 }
+
 
