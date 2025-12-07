@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   
-  background-color: #eedcf2;
+  background-color: #b5c99a;
 }
 
 .canvas {
@@ -156,3 +156,4 @@ body {
   stroke-dasharray: 40 100;
   stroke-dashoffset: -60;
 }
+
