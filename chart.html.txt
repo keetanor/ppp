@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<link href="chart.css" rel="stylesheet">
+<html lang="ru">
+  <head>
+  </head>
+  <body>
+ <div class="canvas">  
+  <div class="legend">
+    <p class="title">сколько отходов собрано</p>    
+    <ul class="caption-list">
+      <li class="caption-item">Пищевые отходы</li>
+      <li class="caption-item">Электронный мусор (сломанные наушники, зарядки, мелкая техника)</li>
+      <li class="caption-item">Стекло</li>
+      <li class="caption-item">Пластик</li>
+      <li class="caption-item">Алюминиевые банки и фольга</li>
+      <li class="caption-item">Батарейки</li>
+      <li class="caption-item">макулатура</li>
+    </ul>
+  </div>
+  
+  <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+    <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+  </svg>
+</div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link href="lesson.css" rel="stylesheet">
+<html lang="ru">
+  <head>
+  </head>
+  <body class="back">
+    <header>
+    </header>
+    <main>
+       <video autoplay muted loop class="background-video">
+  <source src="storm.mp4" type="video/mp4">
+</video>
+<div class="content">
+  <h1> видео об экологии</h1>
+  <p>Образовательные статьи </p>
+</div>
+
+    </main>
+    <footer>
+      
+    </footer>
+   
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.back{
+    background-color: #e9f5db;
+body {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 40px 0;
+	line-height: 1.65;
+	text-align: center;
+}
+
+.grid-1 {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	margin-bottom: 100px;
+}
+
+.grid-2 {
+	grid-template-rows:
+		[time-0800] 1fr
+		[time-0830] 1fr
+		[time-0900] 1fr
+		[time-0930] 1fr
+		[time-1000] 1fr
+		[time-1030] 1fr
+		[time-1100] 1fr
+		[time-1130] 1fr
+		[time-1200] 1fr;
+}
+
+.row {
+	position: relative;
+	padding: 2em 0;
+	border: 3px dashed purple;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #666;
+	
+	&::before {
+		content: attr(data-line);
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translate(-50%,-50%);
+		padding: .25em;
+		background-color: purple;
+		color: white;
+		font-weight: bold
+	}
+	
+	&:last-child::after {
+		content: attr(data-line-after);
+		display: block;
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%,50%);
+		padding: .25em;
+		background-color: purple;
+		color: white;
+		font-weight: bold;
+	}
+	
+	& + .row {
+		border-top: 0;
+	}
+
+}
+
+h2 {
+	margin-bottom: 40px;
+}

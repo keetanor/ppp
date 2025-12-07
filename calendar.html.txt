@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link href="calendar.css" rel="stylesheet">
+<html lang="ru">
+  <head>
+  </head>
+  <body class="back">
+    <header>
+    </header>
+    <main>
+       <h1>Календарь эко-акций в школе</h1>
+
+<h2>1-7 классы</h2>
+<div class="grid-1">
+	<div class="row" data-line="Крышечки добра: 1"> 8:00-8:30</div>
+	<div class="row" data-line="ЭкоПатруль: чистота школьного двора: 2"> 8:30-9:00</div>
+	<div class="row" data-line="ЭкоКвиз: спаси планету за 30 минут: 3">9:00-9:30</div>
+	<div class="row" data-line="ЭкоЛидер года: 4"> 9:30-10:00</div>
+	<div class="row" data-line="Битва контейнеров: 5" data-line-after=""> 10:00-10:30</div>
+</div>
+
+<h2>8-11 классы</h2>
+<div class="grid-2">
+	<div class="row" data-line="ЭкоПатруль: чистота школьного двора">8:00-8:30</div>
+	<div class="row" data-line="Зелёный кинозал">8:30-9:00</div>
+	<div class="row" data-line="Зелёный диалог">9:00-9:30</div>
+	<div class="row" data-line="ЭкоЛидер года">9:30-10:00</div>
+	<div class="row" data-line="Письмо предприятию"Line Name: time-1030"> 10:00-10:30</div>
+</div>
+    </main>
+    <footer>
+      
+    </footer>
+   
+  </body>
+</html>
